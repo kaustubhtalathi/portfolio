@@ -1,0 +1,28 @@
+.container {
+  width: 980px;
+  margin: 0 auto;
+  font-family: sans-serif;
+
+  .title {
+    margin:0;
+    padding:50px 20px;
+    font-size: 42px;
+    text-align: center;
+    padding-top: 100px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  a {
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  #networkDiagram,
+  #sourceMapDiagram {
+    text-align: center;
+  }
+}

@@ -1,0 +1,23 @@
+header {
+    background: maroon;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);
+
+    nav {
+        color: #fff;
+        margin: 0 auto;
+        width: 980px;
+    
+        .mat-button {
+            font-size: 16px;
+            padding: 15px 10px;
+            font-weight: bold;
+        }
+    }
+
+    .sourceMaps {
+        max-width: 100%;
+    }
+}

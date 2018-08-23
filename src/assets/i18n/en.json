@@ -1,0 +1,28 @@
+{
+  "PAGES": {
+      "HEADER": {
+        
+      },
+      "FOOTER": {
+        "COPYRIGHT": "COPYRIGHT 2018",
+        "FOOTNOTE": "Made with Angular and deployed on AWS!"
+      },
+      "HOME": {
+        "TITLE": "Kaustubh Talathi's portfolio!",
+        "DESCRIPTION": "In Progress"
+      },
+      "PROJECTS": {
+        "TITLE": "Projects",
+        "DESCRIPTION": "In Progress"
+      },
+      "RESUME": {
+        "TITLE": "Resume"
+      },
+      "CERTIFICATIONS": {
+        "TITLE": "Certifications"
+      },
+      "DEMOS": {
+        "TITLE": "DEMOS"
+      }
+  }
+}

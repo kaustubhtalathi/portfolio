@@ -1,0 +1,35 @@
+<div class="container">
+  <h1 class="title">
+    {{ 'PAGES.HOME.TITLE' | translate }}
+  </h1>
+  <!-- <h1 class="title">
+    {{title}}
+  </h1> -->
+
+  <mat-card>
+    <h2 class="content-subhead">A bit about myself</h2>
+    <p>
+      I work as a <strong>Technical Architect</strong> at <strong>Hexaware Technologies</strong> for Fannie Mae since March 2017. I have over 10 years of experience in architecting, designing and development of robust web applications. I have managed a team of six developers &amp; led a team of on-shore and off-shore developers. I architect Angular applications by using the latest and best available modules, deciding app structure, best practices &amp; mock API&apos;s. 
+      <br />
+      I have excellent skills in modern Web Technologies like <strong>HTML5, CSS3, JavaScript ES6, Angular 2+, NGRX, ReactJS, Redux, Enzyme, Bootstrap, Jade, Sass, JAVA, JSP, PHP, Python, Apex, ASP.NET, Servlets and XML</strong>. I have good understanding of cloud based applications and deployment on AWS and Azure. Check out my <a routerLink="/resume" routerLinkActive="active">RESUME</a> to learn more about my skillset and experience. Have a look at my <a routerLink="/projects" routerLinkActive="active">Projects</a> to see details about projects or go to <a routerLink="/certifications" routerLinkActive="active">CERTIFICATIONS</a> to check latest certifications.
+    </p>
+  </mat-card>
+  <mat-card>
+    <h2 class="content-subhead">About this site</h2>
+    <div>
+      <div id="networkDiagram">
+          <img src="/assets/images/aws-diagram.webp" alt="network diagram" />
+      </div>
+      <p>
+        This is Single Page application deployed on S3 static website on AWS. It has two S3 buckets: www.ktalathi.com and ktalathi.com. www.ktalathi.com is a simple redirect to ktalathi.com. ktalathi.com holds all the assets like html, css, js, images etc. Route 53 is used as Domain name system. It is build with <a href="https://github.com/maximegris/angular-electron" target="_blank"  rel="noopener">Angular Electron</a> boilerplate and following is the <a href="/assets/source-maps/source-maps.html" target="_blank">source map</a> for the same: 
+      </p>
+      <div id="sourceMapDiagram">
+        <a href="/assets/source-maps/source-maps.html" target="_blank">
+          <img src="/assets/images/source-maps.webp" alt="network diagram" />
+        </a>
+      </div>
+    </div>
+  </mat-card>
+</div>
+
+

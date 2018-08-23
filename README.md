@@ -20,7 +20,7 @@ Currently runs with:
 - Electron v2.0.1
 - Electron Builder v20.13.4
 
-With this sample, you can :
+With this sample, you can : 
 
 - Run your app in a local development environment with Electron & Hot reload
 - Run your app in a production environment
